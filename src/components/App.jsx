@@ -50,10 +50,10 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <Section title={'Phonebook'} />
+        <Section title="Phonebook" />
         <ContactForm formSubmitHandler={this.formSubmitHandler} />
 
-        <Section title={'Contacts'} />
+        <Section title="Contacts" />
         <Contact
           states={this.state}
           onChangeSearchInput={this.onChangeSearchInput}
